@@ -1,1 +1,1 @@
-![ER-Diagram](./ER_Diagram.jpg)
+<img alt="ER_Diagram" src="./ER_Diagram.jpg">
