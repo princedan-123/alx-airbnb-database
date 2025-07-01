@@ -8,6 +8,4 @@ SELECT first_name, last_name, role, b.booking_id, b.property_id, b.user_id, b.st
 SELECT * FROM Booking LEFT JOIN User ON User.user_id =  Booking.user_id;
 -- full outer join
 -- MYSQL Does not natively support full outer join without union
-SELECT * FROM User LEFT JOIN Booking ON User.user_id = Booking.user_id 
-UNION 
-SELECT * FROM User RIGHT JOIN Booking ON User.user_id = Booking.user_id;
+SELECT * FROM User FULL OUTER JOIN Booking ON User.user_id = Booking.user_id; 
